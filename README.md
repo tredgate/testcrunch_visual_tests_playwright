@@ -12,6 +12,13 @@ Kroky pro instalaci:
 2. Nainstalujte závislosti pomocí příkazu `npm install`
 3. Nainstalujte prohlížeč pomocí příkazu `npx playwright install --with-deps`
 
+## Struktura repozitáře
+
+- `tests/` - složka obsahující testy
+- `tests/cheatsheet/` - složka obsahující vzorové testy, které můžete použít jako šablonu pro vaše vlastní testy
+- `tests/workshop/` - složka obsahující testy, vytvořené na workshopu
+- `tests/workshop/prep/` - složka obsahující testy, které byly vytvořeny před workshopem, může zde být více příkladů a testů
+
 ## Spuštění testů
 
 Testy můžete spustit pomocí příkazu `npx playwright test`.
